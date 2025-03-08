@@ -141,7 +141,7 @@ st.markdown("""
 .strong { color: #2ecc71; }
 .very-strong { color: #27ae60; }
 
-.footer { text-align: center; padding: 20px; background: white; color: #3498db; margin-top: 80px; font-family: 'Poppins'; }
+.footer { text-align: center; padding: 20px; color: #3498db; margin-top: 80px; font-family: 'Poppins'; }
 
 </style>
 """, unsafe_allow_html=True)
@@ -151,8 +151,7 @@ st.markdown('<h1 class="title" style="color:#3498db;"> 🔐🛡️ Password Fort
 tab1, tab2, tab3, tab4 = st.tabs(["Password Analyser", "Password Generator", "Security Tips", "FAQ"])
 with tab1:
     st.markdown('<h1 class="title" style="color:#3498db;"> Password Analyser 🚀</h1>', unsafe_allow_html=True)
-    # Password generator content
-    # Password checker content
+
 
     # Security tips content
 
